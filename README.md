@@ -20,6 +20,11 @@ A simple, interactive, and modern **Counter Web Application** made using **HTML,
 ### 🎨 Modern UI
 - Clean, centered layout  
 - Color-coded buttons  
-- Hover & click animations  
+- Hover & click animations
+
+
+## 📷 Screenshot
+
+![Counter App Screenshot](screenshot.png)
 
 ---
