@@ -1,0 +1,76 @@
+/* Default (Light Mode) */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2f2f2;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Dark mode style */
+body.dark {
+    background: #121212;
+    color: #fff;
+}
+
+/* Counter label */
+#countlabel {
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Button container */
+#btnContainer {
+    display: flex;
+    gap: 20px;
+}
+
+/* Theme toggle button */
+#themeToggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 8px 15px;
+    font-size: 14px;
+    border: none;
+    background: #444;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#themeToggle:hover {
+    background: #222;
+}
+
+/* Base buttons */
+.classBtns {
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.classBtns:active {
+    transform: scale(0.97);
+}
+
+/* Specific colors */
+#decreaseBtn { background-color: #d9534f; }
+#decreaseBtn:hover { background-color: #b52b27; }
+
+#resetBtn { background-color: #6c757d; }
+#resetBtn:hover { background-color: #50565c; }
+
+#increaseBtn { background-color: #28a745; }
+#increaseBtn:hover { background-color: #1d7e32; }
